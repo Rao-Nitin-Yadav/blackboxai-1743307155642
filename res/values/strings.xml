@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Cars24</string>
+    <string name="search_hint">Search cars, brands...</string>
+    <string name="welcome_message">Find your perfect car</string>
+    <string name="view_details">View Details</string>
+    <string name="price_label">Price: %s</string>
+    <string name="mileage_label">Mileage: %s km</string>
+    
+    <!-- Navigation items -->
+    <string name="home_tab">Home</string>
+    <string name="search_tab">Search</string>
+    <string name="sell_tab">Sell</string>
+    <string name="profile_tab">Profile</string>
+    
+    <!-- Car types -->
+    <string-array name="car_types">
+        <item>Hatchback</item>
+        <item>Sedan</item>
+        <item>SUV</item>
+        <item>Luxury</item>
+    </string-array>
+</resources>
