@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars24 Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .car-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="fas fa-car text-blue-600 text-2xl mr-2"></i>
+                <h1 class="text-xl font-bold text-blue-600">Cars24</h1>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="text-gray-700 hover:text-blue-600">Buy</a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">Sell</a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">Finance</a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">Services</a>
+            </div>
+            <button class="md:hidden">
+                <i class="fas fa-bars text-gray-700 text-xl"></i>
+            </button>
+        </div>
+    </nav>
+
